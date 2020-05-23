@@ -30,8 +30,16 @@ if __name__ == '__main__':
     print(f'Dita\'s Puzzle Generator. Version 0.1')
     print('Author: eldraco@gmail.com\n')
 
-    colors = {'0': (255, 255, 255), '1': (255, 0, 128), '2': (127, 0, 255), '3': (0, 0, 255), '4': (0, 255, 255),
-              '5': (0, 255, 128), '6': (255, 255, 0), '7': (255, 128, 0), '8': (255, 0, 0), '9': (0, 0, 0)}
+    colors = {'0': (255, 255, 255), # White
+              '1': (255, 0, 128),   # pink
+              '2': (127, 0, 255),   # violet
+              '3': (0, 0, 255),     # Blue
+              '4': (0, 255, 255),   # cyan
+              '5': (0, 255, 128),   # green
+              '6': (255, 255, 0),   # yellow
+              '7': (255, 128, 0),   # orange
+              '8': (255, 0, 0),     # red
+              '9': (0, 0, 0)}       # Black
     plot_line = []
 
     # Parse the parameters
@@ -40,7 +48,7 @@ if __name__ == '__main__':
     parser.add_argument('-l', '--lines', help='Amount of lines to generate.', action='store', required=False, type=int, default=500)
     parser.add_argument('-w', '--width', help='Width of the lines.', action='store', required=False, type=int, default=1000)
     parser.add_argument('-s', '--seed', help='Initial line of numbers.', action='store', required=False, type=str)
-    parser.add_argument('-p', '--plot', help='To plot or not in a png file.', action='store_true' , required=False, default=True)
+    parser.add_argument('-p', '--plot', help='To plot or not in a png file.', action='store_true' , required=False, default=False)
     parser.add_argument('-P', '--print', help='Print the numbers in console.', action='store_true' , required=False, default=False)
     args = parser.parse_args()
 
