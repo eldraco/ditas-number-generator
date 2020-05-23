@@ -39,6 +39,11 @@ If you pass -p you will plot the png file, and if you pass -P you will print the
 		  -p, --plot            To plot or not in a png file.
 		  -P, --print           Print the numbers in console.
 
+# Plots
+
+In order to plot the sequence we assign a color to each number from 0 to 9, and then we assign a pixel to each number. 
+We pad the rows to have a min and max width with 0 (white).
+
 
 # Example
 
