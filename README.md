@@ -4,13 +4,14 @@ Based on a game of numbers presented to me by Dita Hollmannova, I decided to cre
 Author: Sebastian Garcia, eldraco@gmail.com
 
 The game was to find the next line in the sequence. For example:
-6
-61
-6111
-6113
-611231
-6112213111
-?
+
+		6
+		61
+		6111
+		6113
+		611231
+		6112213111
+		?
 
 # Usage
 To use the tool, pass the seed or initial number with -s, and optionally you can select the amount of lines with -l and width of the numbers with -w.
