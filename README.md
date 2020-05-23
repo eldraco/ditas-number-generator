@@ -17,7 +17,27 @@ The game was to find the next line in the sequence. For example:
 To use the tool, pass the seed or initial number with -s, and optionally you can select the amount of lines with -l and width of the numbers with -w.
 If you pass -p you will plot the png file, and if you pass -P you will print the lines
 
+# Help
 
+		✗ ./puzzle-generator.py -h
+		Dita's Puzzle Generator. Version 0.1
+		Author: eldraco@gmail.com
+
+		usage: puzzle-generator.py [-h] [-v VERBOSE] [-l LINES] [-w WIDTH] [-s SEED]
+								   [-p] [-P]
+
+		optional arguments:
+		  -h, --help            show this help message and exit
+		  -v VERBOSE, --verbose VERBOSE
+								Amount of verbosity. This shows more info about the
+								results.
+		  -l LINES, --lines LINES
+								Amount of lines to generate.
+		  -w WIDTH, --width WIDTH
+								Width of the lines.
+		  -s SEED, --seed SEED  Initial line of numbers.
+		  -p, --plot            To plot or not in a png file.
+		  -P, --print           Print the numbers in console.
 
 
 # Example
