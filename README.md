@@ -1,6 +1,8 @@
 # Dita's Puzzle Generator
 Based on a game of numbers presented to me by Dita Hollmannova, I decided to create an cellular automata to visualize the patterns.
 
+Author: Sebastian Garcia, eldraco@gmail.com
+
 The game was to find the next line in the sequence. For example:
 6
 61
@@ -51,7 +53,7 @@ If you pass -p you will plot the png file, and if you pass -P you will print the
 		Using seed: 111222333444555666777888999000
 
 
-		![Example of Seed 111222333444555666777888999000](https://github.com/eldraco/ditas-number-generator/raw/master/ditomata-111222333444555666777888999000.png "Example of Seed 111222333444555666777888999000")
+![Example of Seed 111222333444555666777888999000](https://github.com/eldraco/ditas-number-generator/raw/master/ditomata-111222333444555666777888999000.png "Example of Seed 111222333444555666777888999000")
 
 
 ## Generate a plot with seed 93485739475938475
@@ -64,4 +66,4 @@ If you pass -p you will plot the png file, and if you pass -P you will print the
 		Numbers per line: 300
 		Using seed: 93485739475938475
 
-		![Example of Seed 93485739475938475](https://github.com/eldraco/ditas-number-generator/raw/master/ditomata-93485739475938475.png "Example of Seed 93485739475938475")
+![Example of Seed 93485739475938475](https://github.com/eldraco/ditas-number-generator/raw/master/ditomata-93485739475938475.png "Example of Seed 93485739475938475")
